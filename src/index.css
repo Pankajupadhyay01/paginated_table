@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-table .p-checkbox-box {
+    border: 2px solid gray !important; 
+    border-radius: 4px; 
+}
+
+.custom-table .p-checkbox-box.p-highlight {
+    border-color: gray !important;
+}
